@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanizador"
+  short_description: "Que el texto escrito por IA suene a quien lo escribe"
+  default_prompt: "Usa $humanizador para reescribir este texto con mi voz sin cambiar sus datos."

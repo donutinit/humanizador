@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "humanizador",
+  "owner": {
+    "name": "Von Diego",
+    "url": "https://github.com/donutinit"
+  },
+  "description": "Instala el Humanizador como plugin de Claude.",
+  "plugins": [
+    {
+      "name": "humanizador",
+      "source": "./",
+      "description": "Reescribe texto en español que suena a IA para que suene natural sin cambiar lo que dice.",
+      "license": "MIT",
+      "keywords": ["escritura", "edición", "humanizar", "español", "prosa", "estilo"]
+    }
+  ]
+}
