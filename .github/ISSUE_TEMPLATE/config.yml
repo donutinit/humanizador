@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Los detectores de IA todavía marcan el resultado
+    url: https://github.com/donutinit/humanizador#humanizador
+    about: Pasar los detectores de IA no es un objetivo. Humanizador edita para lectores humanos.

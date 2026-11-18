@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "humanizador",
   "owner": {
     "name": "Von Diego",
@@ -10,7 +10,7 @@
     {
       "name": "humanizador",
       "source": "./",
-      "description": "Reescribe texto en español que suena a IA para que suene natural sin cambiar lo que dice.",
+      "description": "Reescribe texto en español que suena a IA para que suene a quien lo escribe, sin cambiar lo que dice.",
       "license": "MIT",
       "keywords": ["escritura", "edición", "humanizar", "español", "prosa", "estilo"]
     }

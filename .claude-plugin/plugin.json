@@ -1,8 +1,7 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "humanizador",
-  "description": "Reescribe texto en español que suena a IA para que suene natural sin cambiar lo que dice.",
-  "version": "1.0.0",
+  "description": "Reescribe texto en español que suena a IA para que suene a quien lo escribe, sin cambiar lo que dice.",
+  "version": "1.1.0",
   "author": {
     "name": "Von Diego",
     "url": "https://github.com/donutinit"

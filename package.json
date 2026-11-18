@@ -1,0 +1,11 @@
+{
+  "name": "humanizador",
+  "private": true,
+  "description": "Reescribe texto en español que suena a IA para que suene a quien lo escribe, sin cambiar lo que dice.",
+  "license": "MIT",
+  "repository": "github:donutinit/humanizador",
+  "keywords": ["pi-package"],
+  "pi": {
+    "skills": ["./"]
+  }
+}

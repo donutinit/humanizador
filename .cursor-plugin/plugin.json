@@ -1,0 +1,12 @@
+{
+  "name": "humanizador",
+  "description": "Reescribe texto en español que suena a IA para que suene a quien lo escribe, sin cambiar lo que dice.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Von Diego"
+  },
+  "homepage": "https://github.com/donutinit/humanizador",
+  "repository": "https://github.com/donutinit/humanizador",
+  "license": "MIT",
+  "keywords": ["escritura", "edición", "humanizar", "español", "prosa", "estilo"]
+}

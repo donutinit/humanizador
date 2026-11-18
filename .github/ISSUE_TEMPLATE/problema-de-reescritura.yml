@@ -1,0 +1,44 @@
+name: Problema de reescritura
+description: Una reescritura dejó una señal, cambió el sentido, agregó un dato o editó de más.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Qué salió mal
+      options:
+        - Una señal sobrevivió a la reescritura
+        - La reescritura agregó o perdió un dato
+        - La reescritura cambió texto que estaba bien
+        - Otra cosa
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Texto de entrada
+      description: El texto que le diste a Humanizador. Quita cualquier dato privado.
+    validations:
+      required: true
+  - type: textarea
+    id: call
+    attributes:
+      label: Cómo la llamaste
+      description: El agente y el modelo que usaste, y tu prompt exacto.
+      placeholder: "Claude Code, Opus 5.5: /humanizador y luego pegué el texto"
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Resultado
+      description: Lo que devolvió Humanizador.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Qué debió hacer
+      description: Cita la oración que está mal y di qué escribiría alguien con cuidado. Nombra el número del patrón si lo sabes.
+    validations:
+      required: true
