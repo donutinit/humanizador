@@ -22,9 +22,9 @@ npx skills add donutinit/humanizador
 **A mano:** clona el repo y enlázalo en la carpeta de skills de tu agente.
 
 ```sh
-git clone https://github.com/donutinit/humanizador ~/src/humanizador
-ln -s ~/src/humanizador ~/.claude/skills/humanizador   # Claude Code (OpenCode también la lee aquí)
-ln -s ~/src/humanizador ~/.codex/skills/humanizador    # Codex
+git clone https://github.com/donutinit/humanizador ~/dev/humanizador
+ln -s ~/dev/humanizador ~/.claude/skills/humanizador   # Claude Code (OpenCode también la lee aquí)
+ln -s ~/dev/humanizador ~/.codex/skills/humanizador    # Codex
 ```
 
 Con el enlace, un `git pull` actualiza la skill en todos los agentes.
