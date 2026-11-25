@@ -1,0 +1,24 @@
+name: Señal nueva
+description: Una señal de escritura de IA que ningún patrón actual detecta.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: before
+    attributes:
+      label: Ejemplo
+      description: Texto real que muestre la señal. Quita cualquier dato privado.
+    validations:
+      required: true
+  - type: textarea
+    id: after
+    attributes:
+      label: Cómo lo escribiría una persona
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Por qué ningún patrón actual la cubre
+      description: Nombra el patrón más cercano y explica por qué no la detecta. La mayoría de las señales nuevas caben en un patrón que ya existe.
+    validations:
+      required: true
